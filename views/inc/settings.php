@@ -49,14 +49,14 @@ require ('inc/essentials.php');
                                 </div>
                                 <div class="modal-body">
                                     <div class="mb-3">
-                                        <label class="form-label">Gran Hoyel Desamparados</label>
-                                        <input type="text" name="site_title" id="site_title_inp"
+                                        <label class="form-label">Gran Hotel Desamparados</label>
+                                        <input type="text" name="site_title" id="site_title_inp" required
                                             class="form-control shadow-none">
                                     </div>
                                     <div class="modal-body">
                                         <div class="mb-3">
                                             <label class="form-label">Sobre Nosotros</label>
-                                            <textarea name="site_about" id="site_about_inp"
+                                            <textarea name="site_about" id="site_about_inp" required
                                                 class="form-control shadow-none" rows="6"></textarea>
                                         </div>
 
@@ -81,6 +81,43 @@ require ('inc/essentials.php');
 
                             </div>
                     </div>
+
+                                <!--- Seccion detalles contactos --->
+
+                                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h5 class="card-tittle m-0">Contacts Settings</h5>
+                            <button type="button" class="btn btn-dark shadow-none btn-sm"
+                                data-bs-toggle="modal">Cancelar</button>
+                            <i class="bi bi-pencil-square"></i>
+                            </button>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-4">
+                                    <h6 class="card-subtitle mb-1 fw-bold">Address</h6>
+                                     <p class="card-text" id="address"></p>
+                                    </div>
+                                    <div class="mb-4">
+                                    <h6 class="card-subtitle mb-1 fw-bold">Google Map</h6>
+                                     <p class="card-text" id="gmap"></p>
+                                    </div>
+                                    <div class="mb-4">
+                                    <h6 class="card-subtitle mb-1 fw-bold">Phone Numbers</h6>
+                                     <p class="card-text mb-1" id="phone"></p>
+                                    </div>
+                                    <div class="mb-4">
+                                    <h6 class="card-subtitle mb-1 fw-bold">E-mail</h6>
+                                     <p class="card-text" id="email"></p>
+                                    </div>
+                                </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                     <?php require ('inc/scripts.php'); ?>
                     <script>
