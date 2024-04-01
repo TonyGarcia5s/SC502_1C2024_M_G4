@@ -24,8 +24,8 @@
                 <li class="nav_items">
                     <a href="#" class="nav_links">Servicios</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Reservaciones</a>
+                <li class="nav_items" >
+                    <a href="reservaciones.php" class="nav_links">Reservaciones</a>
                 </li>
                 <li class="nav_items">
                     <a href="#" class="nav_links">Contacto</a>
@@ -35,7 +35,7 @@
         <section class="hero_container container">
             <h1 class="hero_title">Gran Hotel Desamparados</h1>
             <p class="hero_paragraph">Bienvenido a nuestro hotel, donde la comodidad y la hospitalidad se encuentran</p>
-            <a href="#" class="cta">Reserva ya</a>
+            <a href="reservaciones.php" class="cta">Reserva ya</a>
         </section>
     </header>
 
