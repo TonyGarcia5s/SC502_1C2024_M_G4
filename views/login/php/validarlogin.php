@@ -6,10 +6,10 @@ $momento = date("d/m/Y h:i:s: A");
 
 if (isset($_POST["usr"]) && isset($_POST["pass"])) {
 
-    $result = $mvcDatos->selectQuery("SELECT * FROM usuario WHERE usuario=:usuario AND password=md5(:password) AND estado=1", array(':usuario' => $_POST["usr"], ':password' => $_POST["pass"]));
-    
-    if (count($result) > 0) {
-        if (!isset($_SESSION)) {
+    $result=$mvcDatos->selectQuery("SELECT * FROM usuarios WHERE usuario='".$_POST["usr"]."' and password=md5('".$_POST["pass"]."') and estado=1");
+    if(count($result)>0)
+    {
+        if(!isset($_SESSION)){
             session_start();
         }
 
