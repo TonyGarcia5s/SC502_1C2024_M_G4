@@ -1,43 +1,57 @@
 <?php
-include_once(__DIR__."/db.class.php");
+include_once(__DIR__."/conexionBD.php");
 
-class GetDatos extends BaseDeDatos
-{
-    public function selectQuery($query)
-    {
-        $datos=array();
-         if(!$this->isConnected)
-         {
-            $this->conectar();
-         }
+class GetDatos {
+    private $conexion;
 
-        $consulta=$this->consultar($query);
-        if($this->numero_filas($consulta))
-        {
-            while ($arreglo=$consulta->fetch_assoc()) {
-                $datos[]=$arreglo;
+    public function __construct() {
+        // Inicializar la conexión a la base de datos
+        include_once(__DIR__."/conexionBD.php");
+        $this->conexion = $dbh;
+    }
+
+    public function selectQuery($query, $params = array()) {
+        $datos = array();
+
+        try {
+            $stmt = $this->conexion->prepare($query);
+            $stmt->execute($params);
+
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                $datos[] = $row;
             }
+        } catch (PDOException $e) {
+            // Manejar el error de manera adecuada, como loggearlo o lanzar una excepción
+            echo "Error al ejecutar la consulta: " . $e->getMessage();
         }
+
         return $datos;
     }
 
-    public function getLastInsert(){
-        return $this->conexion->insert_id;
+    public function insertQuery($query, $params = array()) {
+        try {
+            $stmt = $this->conexion->prepare($query);
+            $stmt->execute($params);
+            
+            return true;
+        } catch (PDOException $e) {
+            // Manejar el error de manera adecuada, como loggearlo o lanzar una excepción
+            echo "Error al ejecutar la consulta: " . $e->getMessage();
+            return false;
+        }
     }
 
-    public function insert_query($query) {
-        if(!$this->isConnected) {
-            $this->conectar();
+    public function deleteQuery($query, $params = array()) {
+        try {
+            $stmt = $this->conexion->prepare($query);
+            $stmt->execute($params);
+            
+            return true;
+        } catch (PDOException $e) {
+            // Manejar el error de manera adecuada, como loggearlo o lanzar una excepción
+            echo "Error al ejecutar la consulta: " . $e->getMessage();
+            return false;
         }
-        $consulta=$this->consultar($query);
-        return true;
-    }
-
-    public function delete_query($query) {
-        if (!$this->isConnected) {
-            $this->conectar();
-        }
-        $consulta=$this->consultar($query);
-        return true;
     }
 }
+?>

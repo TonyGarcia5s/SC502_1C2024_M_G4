@@ -14,15 +14,15 @@ class controlador{
 
     //Usuarios
     public function home(){
-        include_once(__DIR__."/../views\login\login.html");
+        include_once(__DIR__."/../../views/login/login.html");
     }
 
     //Inicio de sesion
     public function login(){
-        include_once(__DIR__."/../views\login\login.html");
+        include_once(__DIR__."/../../views/login/login.html");
     }
     public function validar(){
-        include_once(__DIR__."/../views\login\php\validarlogin.php");
+        include_once(__DIR__."/../../views/login/php/validarlogin.php");
     }
     //Fin Inicio de Sesion
 
@@ -36,6 +36,6 @@ class controlador{
         header('Location: '.controlador::$rutaAPP.'index.php/login');
     }
     public function index(){
-        include_once(__DIR__."/..views/login/login.html");
+        include_once(__DIR__."/../../views/login/login.html");
     }
 }
