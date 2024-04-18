@@ -10,10 +10,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href=" assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
-	<link rel="stylesheet" href="assets/css/flaticon.css">
+
+
+
+    <!-- Bootstrap Min CSS --> 
+    <!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Owl Theme Default Min CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<!-- Owl Carousel Min CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- Boxicons Min CSS --> 
+		<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
+		<!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
 		<!-- Meanmenu Min CSS -->
 		<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 		<!-- Animate Min CSS --> 
@@ -38,7 +49,8 @@
 	   <link rel="icon" type="image/png" href="assets/img/favicon.png">
 	   
     
-    </head>
+    </head> 
+
 <header class="hero">
         <nav class="nav container">
             <div class="nav_logo">
@@ -67,20 +79,68 @@
             </ul>
         </nav>
         <section class="hero_container container">
-            <h1 class="hero_title">Revision de Disponibilidad</h1>
-          
+            <h1 class="hero_title">Servicios</h1>
+            <p class="hero_paragraph">Bienvenido a nuestro hotel, donde la comodidad y la hospitalidad se encuentran</p>
+           
         </section>
     </header>
-    <body>
-	<div class="row">
-	<div class="col-lg-12">
-<div id='calendar'></div>
-</div>
-</div>
+    <!-- Start facilities Area -->
+		<section class="facilities-area-four">
+			<div class="container">
+				<div class="section-title">
+					<span>Servicios</span>
+					<h2>Servicios Adiccionales que tiene nuestro Hotel</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-speaker"></i>
+							<h3>Reuniones y Eventos especiales </h3>
+							<p>Reuniones y eventos especiales, salon grande con capacidad de 50 personas, mesas, sillas y adicional se brinda el sercicion de caterin</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-coffee-cup"></i>
+							<h3>Cafe de bienvenida</h3>
+							<p>Normalmente el ingreso de nuestras habitaciones es en la hora del cafe, brindamos una deliciosa taza de cafe a nustros huespedes para una mejor experiencia</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-garage"></i>
+							<h3>Parqueo</h3>
+							<p>El hotel brinda servicio de parqueo bajo techo, dentro del hotel para mayor seguridad</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-water"></i>
+							<h3>Baños con agua fria y caliente </h3>
+							<p>Baños con diferente temperatura de agua para diferentes gusto de los huespedes para mayor comodidad.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-pickup"></i>
+							<h3>Servicio de Trasporte publico </h3>
+							<p>Servicio de Trasporte publico a diferentes parte de San Jose cerca del hotel.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="singles-facilities">
+							<i class="flaticon-swimming"></i>
+							<h3>Diversión</h3>
+							<p>Cercanias de diferentes actividades para divertirse en pareja o familia cerca del hotel</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End facilities Area -->
 
-<script src="assets/js/pages/reservas.js"></script>
-<script src="<?php echo 'assets/js/pages/reservas.js'; ?>"></script>
-<footer class="footer-top-area footer-top-area-two pt-100">
+
+    <footer class="footer-top-area footer-top-area-two pt-100">
 			<div class="container">
 
 			<div class="footer-middle-area pt-60">
@@ -208,7 +268,11 @@
 				<img src="assets/img/shape/white-shape-bottom.png" alt="Image">
 			</div>
 		</footer>
-		<script src="assets/fullcalendar/index.global.min.js"></script>
-		<script src="assets/fullcalendar/es.global.min.js"></script>
-		</body>
+	
+
+
+				
+			
+
+    </body>
 </html>

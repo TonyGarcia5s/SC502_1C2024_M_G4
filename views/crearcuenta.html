@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="../views/assets/crearCuenta.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-crear-cuenta">
+            <div class="wrap-input100 validate-input m-b-23">
+                <form class="login100-form validate-form" action="../controllers/controller.php" method="POST">
+                    <span class="form-title">
+                        Crear Cuenta
+                    </span>
+
+                    <div class="input-container">
+                        <span class="label-input100">Usuario</span>
+                        <input class="input100" type="text" name="usuario" placeholder="Ingrese su nombre de usuario" id="usuario">
+                    </div>
+
+                    <div class="input-container">
+                        <span class="label-input100">Contraseña</span>
+                        <input class="input100" type="password" name="contraseña" placeholder="Ingrese su contraseña" id="contraseña">
+                    </div>
+
+                    <div class="input-container">
+                        <span class="label-input100">Nombre</span>
+                        <input class="input100" type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre">
+                    </div>
+
+                    <div class="input-container">
+                        <span class="label-input100">Apellidos</span>
+                        <input class="input100" type="text" name="apellidos" placeholder="Ingrese sus apellidos" id="apellidos">
+                    </div>
+
+                    <div class="input-container">
+                        <span class="label-input100">Correo</span>
+                        <input class="input100" type="email" name="correo" placeholder="Ingrese su correo electrónico" id="correo">
+                    </div>
+
+                    <div class="input-container">
+                        <span class="label-input100">Teléfono</span>
+                        <input class="input100" type="tel" name="telefono" placeholder="Ingrese su número de teléfono" id="telefono">
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <div class="wrap-login100-form-btn">
+                            <div class="login100-form-bgbtn"></div>
+                            <button class="submit-button" type="submit">
+                                Crear Cuenta
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-links">
+                        ¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -6,6 +6,7 @@
     <title>Gran Hotel Desamparados</title>
     <link rel="shortcut icon" href="assets/img/download-icon-city+home+hotel+icon-1320086447685977083_32.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/estilos.css">
+	<link rel="stylesheet" href="assets/css/estilos1.css">
     <link rel="stylesheet" href=" assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
@@ -38,7 +39,8 @@
 	   <link rel="icon" type="image/png" href="assets/img/favicon.png">
 	   
     
-    </head>
+    </head> 
+
 <header class="hero">
         <nav class="nav container">
             <div class="nav_logo">
@@ -67,20 +69,195 @@
             </ul>
         </nav>
         <section class="hero_container container">
-            <h1 class="hero_title">Revision de Disponibilidad</h1>
-          
+            <h1 class="hero_title">Habitaciones</h1>
+            <p class="hero_paragraph">Bienvenido a nuestro hotel, donde la comodidad y la hospitalidad se encuentran</p>
+            <a href="reservaciones.php" class="cta">Reserva ya</a>
         </section>
     </header>
     <body>
-	<div class="row">
-	<div class="col-lg-12">
-<div id='calendar'></div>
-</div>
-</div>
+		<!-- Start Our Rooms Area -->
+		<section class="our-rooms-area pb-100"> 
+			<div class="container">
+				<div class="section-title">
+					<span>Nuestras Habitaciones</span>
+					<h2>Diferentes tipos de Habitaciones para diferentes tipo de Familias </h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/aire.png" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion superior</h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										
+									</ul>
+									<span class="price">Desde los 25000 la noche</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya 
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/222.png" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion Familiar </h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										
+									</ul>
+									<span class="price">Desde los 35000 por noche</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/4.png" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion con sofa cama</h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+									
+									</ul>
+									<span class="price">Desde los 25000 la noche</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/gris.png" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion Cola</h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										
+							
+									</ul>
+									<span class="price">Desde los 25000 mil</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/31.png" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion royal</h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										
+									</ul>
+									<span class="price">Desde los 25000 la noche</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya 
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-rooms-three-wrap">
+							<div class="single-rooms-three">
+								<img src="assets/img/habitacio7.jpg" alt="Image">
+								<div class="single-rooms-three-content">
+									<h3>Habitacion Estandar</h3>
+									<ul class="rating">
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+										<li>
+											<i class="bx bxs-star"></i>
+										</li>
+									
+									</ul>
+									<span class="price">Desde 25000 colones la noche</span>
+									<a href="book-table.html" class="default-btn">
+										Reserva ya 
+										<i class="flaticon-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+									
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 
-<script src="assets/js/pages/reservas.js"></script>
-<script src="<?php echo 'assets/js/pages/reservas.js'; ?>"></script>
-<footer class="footer-top-area footer-top-area-two pt-100">
+		</section>
+        <footer class="footer-top-area footer-top-area-two pt-100">
 			<div class="container">
 
 			<div class="footer-middle-area pt-60">
@@ -208,7 +385,13 @@
 				<img src="assets/img/shape/white-shape-bottom.png" alt="Image">
 			</div>
 		</footer>
-		<script src="assets/fullcalendar/index.global.min.js"></script>
-		<script src="assets/fullcalendar/es.global.min.js"></script>
-		</body>
+	
+
+
+				
+			
+
+    </body>
 </html>
+
+

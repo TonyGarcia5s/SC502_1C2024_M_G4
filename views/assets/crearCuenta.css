@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos para el formulario */
+.wrap-input100 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.label-input100 {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input100 {
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón */
+.login100-form-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login100-form-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los enlaces */
+.txt1 {
+    color: #333;
+}
+
+.txt1 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.txt1 a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de creación de cuenta */
+.container-crear-cuenta {
+    width: 400px;
+    margin: 80px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título del formulario */
+.form-title {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold; 
+    display: block;
+    width: 100%;
+}
+
+
+/* Estilos para los campos de entrada */
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de enviar */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los enlaces al final del formulario */
+.form-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-link {
+    margin-right: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+
